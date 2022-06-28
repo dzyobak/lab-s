@@ -1,0 +1,78 @@
+body {
+  font-family: "Inconsolata", monospace;
+}
+
+.more_products_btn {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 1900px;
+  margin: 0 auto;
+}
+
+.img_div {
+  padding-top: 90px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+
+.select_size {
+  border-radius: 5px;
+  background-color: white;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid rgb(213, 195, 195);
+}
+
+.option_size {
+  border-radius: 10px;
+}
+
+.elements {
+  display: flex;
+}
+
+.info_text {
+  padding-top: 90px;
+  padding-left: 40px;
+}
+
+.h1_ {
+  padding-bottom: 10px;
+}
+
+.h3_ {
+  padding-bottom: 10px;
+}
+
+.btn_div {
+  padding-top: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: black;
+  border: 1px solid balck;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 7px;
+}

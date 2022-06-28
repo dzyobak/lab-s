@@ -1,0 +1,67 @@
+body {
+  font-family: "Inconsolata", monospace;
+}
+
+.header {
+  width: 1800px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.card_name_text {
+  margin: 0 auto;
+  padding-top: 10px;
+  font-weight: 800;
+}
+
+.card_text_div {
+  text-align: center;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.nav_bar_div {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.img_logo {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.img_logo_div {
+  text-align: center;
+}
+
+.card {
+  width: 360px;
+  height: 565px;
+  /* border: 2px solid black;
+  box-shadow: 1px 1px 1px black; */
+  margin-right: 20px;
+}
+
+.card_div {
+  display: flex;
+}
+
+.card_text {
+  text-align: center;
+}

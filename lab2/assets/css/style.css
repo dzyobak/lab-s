@@ -1,0 +1,182 @@
+body{
+
+}
+
+::selection{
+	background: gray;
+}
+
+*,
+*:before,
+*:after{
+	box-sizing: content-box;
+}
+
+.nav{
+	padding-left: 45px;
+	text-align: left;
+}
+
+.container{
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.img__logo{
+	margin-top: 50px;
+	margin-left: 325px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	display: inline-flex;
+	transition: color .2s linear;
+}
+
+a:hover{
+	color: gray;
+}
+
+.img__ramones{
+	width: 391px;
+	height: 400px;
+	padding-left: 85px;
+}
+
+h2{
+	text-align: center;
+}
+
+.texts{
+	display: inline-flex;
+	padding-left: 90px;
+}
+
+.text1{
+
+}
+
+.text2{
+	padding-left: 275px;
+}
+
+.text3{
+	padding-left: 360px;
+}
+
+.text4{
+	
+}
+
+.text5{
+	padding-left: 265px;
+}
+
+.text6{
+	padding-left: 220px;
+}
+
+hr{
+	border: 2px solid;
+}
+
+.spacer{
+	padding-bottom: 0px;
+}
+
+.input{
+	display: block;
+}
+
+h4{
+	text-align: center;
+	margin: 0;
+	margin-top: 10px;
+	font-size: 30px;
+}
+
+.input{
+	text-align: center;
+}
+
+.input2{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.btn__div{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.btn{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.inst__img{
+	width: 50px;
+	height: 50px;
+}
+
+.social__media{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.designs{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.design{
+	border: 2px solid;
+	border-radius: -10px;
+	font-weight: bold;
+	padding: 10px 15px;
+}
+
+.btn{
+	border-radius: 4px;
+	font-weight: bold;
+	background-image: linear-gradient(-110deg, gray, black);
+	opacity: 0.75;
+}
+
+.lg{
+	text-align: center;
+}
+
+.quote{
+	text-align: center;
+}
+
+.blockquote{
+	text-align: center;
+}
+
+.lgn{
+	padding-top: 1px;
+}
+
+.lg{
+	margin: 0;
+}
+
+/*=============================================PAGE2=============================================*/
+
+
+
+
+
+
+
+
+
+
+
+

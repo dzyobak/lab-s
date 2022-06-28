@@ -1,0 +1,261 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	background-color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+ul, li{
+	display: block;
+}
+
+/*****************************HEADER*****************************/
+
+.container{
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.header{
+	background: url("../images/background.jpg");/*Фон*/
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 70px;
+}
+
+.nav{
+	font-size: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.img__logo{
+	padding-right: 13px;
+	width: 40px;  /*Масштабування зображення*/
+
+}
+
+.text__logo{
+	text-decoration: none;
+	color: #fff;
+	padding-right: 300px;
+}
+
+.nav__link{
+	text-decoration: none;
+	color: #fff;
+	margin-right: 50px;
+	transition: color .2s linear;
+}
+
+.nav__link:hover{
+	color: #0e1720;
+}
+
+.btn{
+	color: #fff;
+	font-weight:bold;
+	display: inline;
+	border: 1px solid #fff;
+	padding: 8px 18px;
+	text-decoration: none;
+	border-radius: 3px;
+	margin-left: 327px;
+	transition: color .2s linear;
+}
+
+.btn:hover{
+	color: #0e1720;
+	border: 1px solid #333;
+}
+
+.prg__text{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding-top: 40px;
+}
+
+.prg{
+ 	width: 80%;
+ 	margin-top: 50px;
+ 	margin-left: 140px;
+ 	height: 30px;
+ 	color: white;
+}	
+
+.btn2{
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 15px 25px;
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	font-size: 15px;
+	text-decoration: none;
+	color: white;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+	text-align: center;
+	margin: 42px auto;
+	color: #061e37;
+	font-weight: bold;
+	margin-right: 30px;
+	transition: color .2s linear;
+}
+
+.btn2:hover{
+	background-color: #061e37;
+	color: #fff;
+	border: #061e37;
+}
+/*Стилізована кнопка*/
+.btn3{
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 15px 25px;
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	font-size: 15px;
+	text-decoration: none;
+	color: white;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+	text-align: center;
+	margin: 42px auto;
+	color: #061e37;
+	font-weight: bold;
+	transition: color .2s linear;
+}
+
+.btn3:hover{
+	background-color: #061e37;
+	color: #fff;
+	border: #061e37;
+}
+
+
+/*****************************HEADER*****************************/
+
+/*****************************HEADER__ABOUT*****************************/
+
+.title{
+	font-size: 100px;
+	color: #fff;
+	padding-top: 100px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.sub__title{
+	font-size: 15px;
+	color: #fff;
+	padding-top: 15px;
+	font-weight: initial;
+	text-transform: capitalize;
+	letter-spacing: 0.1em;
+}
+
+/*****************************HEADER__ABOUT*****************************/
+
+/*****************************ABOUT*****************************/
+
+.about__about{
+	text-align: center;
+}
+
+.title2{
+	font-size: 45px;
+	padding-top: 100px;
+}
+
+.sub__title2{
+	color: black;
+	text-transform: capitalize;
+	padding-top: 25px;
+	opacity: 0.75;   /*Прозорість*/
+	font-size: 25px;
+}
+
+.text{
+	font-size: 15px;
+	letter-spacing: 0.1em;
+	text-transform: capitalize;
+	padding-top: 25px;
+}
+
+
+.text1{
+	font-size: 15px;
+	letter-spacing: 0.1em;
+	text-transform: capitalize;
+}
+
+.punkt{
+	padding-top: 20px;
+	margin: 0;
+}
+
+.price{
+	padding-top: 50px;
+	padding-bottom: 40px;
+	font-weight: bold;
+	font-size: 40px;
+}
+/*Підпис таблиці*/
+caption{
+  	text-align: center;
+  	padding: 10px 0;
+  	font-size: 14px;
+  	text-align: center;
+  	font-size: 15px;
+}
+/*Декоративна рамка*/
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+	margin-left: -75px;
+	border: 3px solid black;
+    min-height: 100px;
+    padding: 10px;
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+.table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
+
+caption{
+	padding-left: 135px;
+	padding-bottom: 10px;
+}
+/*****************************ABOUT*****************************/
