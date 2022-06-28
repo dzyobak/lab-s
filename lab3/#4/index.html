@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akshar:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets\css\style.css" />
+    <title>lab3</title>
+  </head>
+  <body>
+    <h1>Завдання 4 || №1</h1>
+    <script type="text/javascript">
+      var wind;
+      function fun1() {
+        wind = window.open(
+          "https://www.uad.lviv.ua/",
+          "",
+          "height=400,width=600",
+          "toolbar=no,location=yes,scrol=no"
+        );
+      }
+      function fun2() {
+        if (wind) {
+          wind.close();
+        }
+      }
+    </script>
+    <input type="button" value="Button 1" onclick="fun1()" />
+    <input type="button" value="Button 2" onclick="fun2()" />
+  </body>
+</html>

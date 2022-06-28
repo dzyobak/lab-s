@@ -1,0 +1,64 @@
+body{
+	background-color: rgb(255, 255, 255);	
+	font-size: 17px;
+	font-family: 'Roboto Slab', serif;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.window{
+	margin: auto;
+	width: 300px;
+	height: 300px;
+	border: 0.5px solid #000000;
+	padding: 10px;
+	margin-top: 240px;
+	border-radius: 10px;
+}
+
+.all__div{
+	padding-top: 60px;
+}
+
+h2{
+	text-align: center;
+}
+
+.login__div{
+	text-align: center;
+}
+
+.login{
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+.btn__div{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.btn{
+	padding: 10px 60px;
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+	border-radius: 5px;
+}
+
+::placeholder{
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akshar:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets\css\style.css" />
+    <link rel="stylesheet" href="main.js" />
+    <title>lab3</title>
+  </head>
+  <body>
+    <h1>Завдання 2 || №3</h1>
+    <script type="text/javascript">
+      document.body.onload = addElement;
+      var my_div = (newDiv = null);
+      var group = prompt("Введіть назву групи");
+      if (group != null) {
+        const out = alert("Ви є студентом групи " + group + "!");
+      }
+      function addElement() {
+        var newDiv = document.createElement("div");
+        newDiv.innerHTML = "Ви є студентом групи " + group + "!";
+        my_div = document.getElementById("org_div1");
+        document.body.insertBefore(newDiv, my_div);
+      }
+    </script>
+  </body>
+</html>

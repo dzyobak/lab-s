@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akshar:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets\css\style.css" />
+    <title>lab3</title>
+  </head>
+  <body type="text/javascript">
+    <h1>Завдання 3 || №6</h1>
+    <script>
+      document.body.onload = addElement;
+      var my_div = (newDiv = null);
+      var aw = Math.max(
+          document.documentElement.scrollWidth,
+          document.body.scrollWidth,
+          document.documentElement.offsetWidth,
+          document.body.offsetWidth,
+          document.documentElement.clientWidth,
+          document.body.clientWidth
+        ),
+        ah = Math.max(
+          document.documentElement.scrollHeight,
+          document.body.scrollHeight,
+          document.documentElement.offsetHeight,
+          document.body.offsetHeight,
+          document.documentElement.clientHeight,
+          document.body.clientHeight
+        );
+      var sizeOfScreen = confirm(
+        "бажаєте взнати розмір робочого вікна веб-сторінки?"
+      );
+      if (sizeOfScreen != null) {
+        alert("Розмір робочого вікно веб-сторінки: " + aw + "x" + ah);
+      }
+      function addElement() {
+        var newDiv = document.createElement("div");
+        newDiv.innerHTML =
+          "Розмір робочого вікно веб-сторінки: " + aw + "x" + ah;
+        my_div = document.getElementById("org_div1");
+        document.body.insertBefore(newDiv, my_div);
+      }
+    </script>
+    <div id="div"></div>
+  </body>
+</html>
